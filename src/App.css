@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.spin {
+  cursor: pointer;
+  animation: loadingCircle 3s infinite linear;
+}
+
+@keyframes loadingCircle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
